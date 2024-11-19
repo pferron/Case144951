@@ -1,23 +1,4 @@
 {
-  "private": true,
-  "license": "UNLICENSED",
-  "scripts": {
-    "build": "nx affected $(getBaseForNxAffected) --target=build",
-    "changeset": "changeset",
-    "ci:setup": "nx affected $(getBaseForNxAffected) --target=deploy,ci:setup --nx-bail=true --output-style=stream",
-    "ci:teardown": "nx affected $(getBaseForNxAffected) --target=ci:teardown",
-    "ci:test": "nx affected $(getBaseForNxAffected) --target=ci:test",
-    "clean": "nx affected $(getBaseForNxAffected) --target clean",
-    "fix": "nx affected $(getBaseForNxAffected) --target=fix",
-    "format": "nx affected $(getBaseForNxAffected) --target=format",
-    "preinstall": "npx only-allow pnpm",
-    "lint": "nx affected $(getBaseForNxAffected) --target=lint",
-    "release:version": "changeset-cvent release:version",
-    "report": "run-sonar && get-test-results && report-build",
-    "test": "nx affected $(getBaseForNxAffected) --target=test",
-    "verify": "nx affected $(getBaseForNxAffected) --target=verify"
-  },
-  "prettier": "@cvent/prettier-config",
   "devDependencies": {
     "@apollo/client": "^3.10.6",
     "@apollo/experimental-nextjs-app-support": "^0.11.2",
