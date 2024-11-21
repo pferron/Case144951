@@ -65,7 +65,7 @@
     "@wdio/spec-reporter": "^8.39.0",
     "apollo-server-errors": "^2.5.0",
     "apollo-server-micro": "^2.26.2",
-    "apollo-server-plugin-base": "^0.13.0",
+    "apollo-server-plugin-base": "^0.14.0",
     "apollo-server-testing": "^2.25.3",
     "aws-cdk": "^2.137.0",
     "aws-cdk-lib": "^2.137.0",
